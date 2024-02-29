@@ -1,0 +1,4 @@
+.section {
+  margin: var(--margin-all-sec-side);
+  max-width: 1900px;
+}

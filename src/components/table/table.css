@@ -1,0 +1,152 @@
+/* text above table */
+.impMess {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0px;
+  padding: 10px 15px;
+  background-color: #282d4d;
+}
+
+.impMess a {
+  color: rgb(4, 130, 233);
+}
+
+/* table options */
+.top {
+  display: flex;
+  position: relative;
+  /* padding: 10px; */
+  padding-bottom: 20px;
+  margin: 30px 0px;
+}
+.top .left {
+  position: absolute;
+}
+
+.top .left span {
+  margin: 10px;
+}
+.top .left input[type="checkbox"] {
+  /* appearance: none; */
+  /* width: 15px;
+  height: 15px;
+  background-color: #080d29;
+  border: 1px solid grey; */
+  accent-color: rgba(4, 130, 233);
+  /* background-color: #1d2345; */
+}
+
+/* .top .left input[type="checkbox"]:before {
+  content: "";
+  width: 70%;
+  height: 70%;
+  margin: auto;
+}
+
+.top .left input[type="checkbox"]:checked:before {
+  background-color: #4d81dc;
+} */
+
+.top .left select {
+  color: #4d81dc !important;
+  background-color: #1d2345 !important;
+  border: none;
+}
+
+.top .left select option {
+  color: #4d81dc !important;
+  background-color: #1d2345 !important;
+}
+
+.top .left select {
+  max-width: 150px;
+}
+
+.top .right {
+  position: absolute;
+  right: 0px;
+}
+
+/* icons colors  */
+.top .right button .icons {
+  color: rgb(65, 163, 255);
+}
+
+/* payment and export button */
+
+.top .right .payBtn {
+  /* border: 2px solid rgb(65, 163, 255); */
+  background-color: rgb(65, 163, 255);
+  color: white;
+  padding: 6px 6px;
+  margin: 0 10px;
+}
+
+.top .right .expBtn {
+  /* margin: 0 5px; */
+  font-size: 16px;
+  /* color: rgb(65, 163, 255); */
+  border: 2px solid rgb(65, 163, 255);
+  color: rgb(65, 163, 255);
+  padding: 5px 15px;
+  margin: 0 10px;
+}
+
+.top .right button:hover {
+  background-color: rgb(0, 59, 107);
+  color: rgb(4, 130, 233);
+  border-radius: 2px;
+}
+
+/* table */
+table {
+  /* margin: 0 20% 0 10%; */
+  position: relative;
+  margin: 20px;
+}
+
+/* thead {
+  display: flex;
+} */
+
+th {
+  /* justify-content: right; */
+  /* align-items: right; */
+  text-align: left;
+  /* max-width: 100%; */
+  min-width: 15vw;
+}
+
+td {
+  justify-content: left;
+  align-items: left;
+  padding: 10px 0;
+  /* max-width: 100%; */
+  /* width: 1920px; */
+}
+
+td span {
+  font-size: 12px;
+}
+
+td .status {
+  background-color: brown;
+  color: yellow;
+  padding: 4px 15px;
+  font-size: 12px;
+  font-weight: 700;
+  /* border: 1px solid yellow; */
+  border-radius: 20px;
+}
+
+.rowsM {
+  position: absolute;
+  right: 4%;
+}
+
+#rowsD {
+  padding: 5px;
+  margin-right: 10px;
+  color: white;
+  background-color: #080d29;
+}

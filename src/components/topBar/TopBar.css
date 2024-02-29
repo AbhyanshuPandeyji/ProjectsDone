@@ -1,0 +1,64 @@
+.topBar {
+  display: flex;
+  width: 100%;
+  height: 70px;
+  position: relative;
+  background-color: #080d29;
+}
+
+.topBar .left {
+  display: flex;
+  left: 5%;
+  margin: 20px 10px;
+  position: absolute;
+  font-size: 16px;
+}
+
+.topBar .left span {
+  margin: 0 10px;
+  font-size: 22px;
+}
+
+.topBar .left button {
+  /* margin: 10px 0; */
+  padding: 5px 20px;
+}
+
+.topBar .right {
+  right: 0;
+  margin: 15px 10px;
+  position: absolute;
+}
+
+.topBar .right button {
+  color: rgb(65, 163, 255);
+  /* margin: 0 10px; */
+  padding: 10px 10px;
+}
+
+.topBar .right button:first-child {
+  border: 2px solid rgb(65, 163, 255);
+  color: rgb(65, 163, 255);
+  padding: 5px 5px;
+  margin: 0 10px;
+}
+
+.topBar .right span {
+  /* margin: 0 5px; */
+  font-size: 16px;
+  color: rgb(65, 163, 255);
+}
+
+.topBar .left button:hover {
+  background-color: rgb(0, 59, 107);
+  color: rgb(4, 130, 233);
+  border-radius: 2px;
+}
+
+.topBar .right button:hover {
+  background-color: rgb(0, 59, 107);
+  color: rgb(4, 130, 233);
+  border-radius: 2px;
+}
+
+/* now try putting the element in right place with tailwind and css */

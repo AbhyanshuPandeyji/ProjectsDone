@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+select {
+  color: #4d81dc;
+  background-color: #4d567a;
+  background: none;
+}
+
+/* 
+CSS HEX
+--port-gore: #1a2041;
+--laser: #c8b16d;
+--havelock-blue: #4d81dc;
+--blue-bayoux: #4d567a;
+--spicy-mix: #744241;
+--matterhorn: #43333e;
+--oslo-gray: #879493;
+--salem: #0b7f57;
+--birch: #312c1a;
+*/

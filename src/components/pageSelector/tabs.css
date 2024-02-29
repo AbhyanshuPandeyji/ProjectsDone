@@ -1,0 +1,33 @@
+.tabs {
+  width: 100% !important;
+  /* margin-left: 3%; */
+  /* margin-top: 2%; */
+  padding: 1.5% 6%;
+  background-color: #111739;
+}
+
+.tabs label {
+  margin: 0 5px;
+  padding: 12px 12px;
+  background-color: #121d42;
+}
+
+.tabs label:hover {
+  background-color: #13234c;
+}
+
+.tabs label input {
+  margin: 10px;
+}
+
+.tabs label input[type="radio"] {
+  accent-color: aqua;
+}
+
+.tabs label input[type="radio"]:checked::after {
+  background-color: #13234c;
+}
+
+.tabs label span {
+  padding: 5px;
+}

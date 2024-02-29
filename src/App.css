@@ -1,0 +1,66 @@
+body {
+  /* background-color: #41419b; */
+  /* background-color: #27277ad8; */
+  /* background-color: #021e5b; */
+  /* background-color: #003366; */
+  /* background-color: #021e5b; */
+  /* background-color: #45629f; */
+  background-color: #1d2345;
+}
+
+:root {
+  --margin-all-sec-side: 0 2% 0 3%;
+}
+
+/* all color paletes 
+  main board color : hex : #1d2345 , rgba : rgba(29,35,69,255);
+  top bar : hex : #080d29 , rgba : rgba(8,13,41,255);
+  icons , hover text , button color 1 : hex : #467fd9 , rgba : rgba(70,127,217,255);
+  button outer lining color : hex : #3d6caf , rgba : rgba(61,108,175,255) ;
+  button solid color : hex : #2a86f3 , rgba : rgba(42,134,243,255);
+  new sign color : hex : #008558 , rgba : rgba(0,133,88,255)
+  side bar color : hex : #080d29 , rgba : rgba(8,13,41,255);
+  top bar on hover color : background : hex : #0b1a3e , rgba : rgba(11,26,62,255)
+  radio box select icon : hex : #359eff , rgba : rgba(53,158,255,255);
+  select background color : hex #121d42 , rgba : rgba(18,29,66,255);
+  need help icon : hex : #6e6ed9 , rgba : rgba(110,110,217,255);
+  tabs bar background : hex :#111739 , rgba : rgba(17,23,57,255)
+  unhover tabs in box shape background : hex:#121d42 , rgba: rgba(18,29,66,255)
+  hovered background color of tabs : hex:#13234c , rgba: rgba(19,35,76,255);  
+  text warning background color: hex:#282d4d , rgba :rgba(40,45,77,255);
+
+*/
+
+/* 
+/* CSS HEX */
+/* --port-gore: #1a2041;
+--laser: #c8b16d;
+--havelock-blue: #4d81dc;
+--blue-bayoux: #4d567a;
+--spicy-mix: #744241;
+--matterhorn: #43333e;
+--oslo-gray: #879493;
+--salem: #0b7f57;
+--birch: #312c1a; */
+
+/* SCSS HEX */
+/* $port-gore: #1a2041;
+$laser: #c8b16d;
+$havelock-blue: #4d81dc;
+$blue-bayoux: #4d567a;
+$spicy-mix: #744241;
+$matterhorn: #43333e;
+$oslo-gray: #879493;
+$salem: #0b7f57;
+$birch: #312c1a; */
+
+/* SCSS RGB */
+/* --port-gore: rgba(26,32,65,1);
+--laser: rgba(200,177,109,1);
+--havelock-blue: rgba(77,129,220,1);
+--blue-bayoux: rgba(77,86,122,1);
+--spicy-mix: rgba(116,66,65,1);
+--matterhorn: rgba(67,51,62,1);
+--oslo-gray: rgba(135,148,147,1);
+--salem: rgba(11,127,87,1);
+--birch: rgba(49,44,26,1); */
