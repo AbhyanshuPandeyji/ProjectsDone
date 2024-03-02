@@ -5,6 +5,7 @@
   margin: 20px 0px;
   padding: 10px 15px;
   background-color: #282d4d;
+  color: white;
 }
 
 .impMess a {
@@ -21,31 +22,19 @@
 }
 .top .left {
   position: absolute;
+  color: white;
+}
+
+.top .left input[type="checkbox"] {
+  cursor: pointer;
 }
 
 .top .left span {
   margin: 10px;
 }
 .top .left input[type="checkbox"] {
-  /* appearance: none; */
-  /* width: 15px;
-  height: 15px;
-  background-color: #080d29;
-  border: 1px solid grey; */
   accent-color: rgba(4, 130, 233);
-  /* background-color: #1d2345; */
 }
-
-/* .top .left input[type="checkbox"]:before {
-  content: "";
-  width: 70%;
-  height: 70%;
-  margin: auto;
-}
-
-.top .left input[type="checkbox"]:checked:before {
-  background-color: #4d81dc;
-} */
 
 .top .left select {
   color: #4d81dc !important;
@@ -103,6 +92,7 @@ table {
   /* margin: 0 20% 0 10%; */
   position: relative;
   margin: 20px;
+  color: white;
 }
 
 /* thead {
@@ -142,6 +132,7 @@ td .status {
 .rowsM {
   position: absolute;
   right: 4%;
+  color: white;
 }
 
 #rowsD {

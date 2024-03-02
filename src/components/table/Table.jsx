@@ -11,27 +11,7 @@ import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
 
 
 
-// idiot table header <th> width will define the space cover by each element under that row , no flex needed , 
-// the table data is filled row wise so every new data is in format of row , what a silly and stupid mistake 
-// if every new user is filled its data in every column then it will be right formant , not when every new user data has 
-// to be filled in every column table , with the use of header , or all the one type of data in one table body , table row ,
-// fix it
 
-// ok total width rows are 12
-
-
-// import { createTheme } from '@mui/material/styles';
-
-// const theme = createTheme({
-//   palette: {
-//     primary: {
-//       main: "rgb(65, 163, 255)",
-//     },
-//     // secondary: {
-//     //   main: '#f44336',
-//     // },
-//   },
-// });
 
 const Table = () => {
   return (
@@ -39,7 +19,7 @@ const Table = () => {
       <div className="section">
         <div className="impMess">
           These are test payouts and do not affect the actual balance. They are
-          used only for the purpose of integration events.
+          used only for the purpose of integration events.&nbsp;&nbsp;
           <a href="#">Learn More!</a>
         </div>
 
@@ -57,7 +37,7 @@ const Table = () => {
 
           <div className="right">
             <button> <RefreshIcon color="primary" /></button>
-            <button>  <MoreVertIcon />  </button>
+            <button>  <MoreVertIcon color="primary" />  </button>
             <button className="expBtn">
               <FileDownloadIcon /> Export
             </button>

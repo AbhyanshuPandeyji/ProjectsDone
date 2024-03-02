@@ -8,7 +8,7 @@ const Tabs = () => {
       <label>
         <input type="radio" name="tabGroup" />
         <span>All Payouts</span>
-        
+
       </label>
       <label>
         <input type="radio" name="tabGroup" />

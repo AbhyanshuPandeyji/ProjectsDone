@@ -28,11 +28,11 @@ const TopBar = () => {
 
       <div className="right">
         <button>
-          <AddIcon /> <span> Payout</span> <span> | </span> <ExpandMoreIcon />
+          <AddIcon className="icons" /> <span> Payout</span> <span> | </span> <ExpandMoreIcon className="icons" />
         </button>
-        <button><SearchIcon /></button>
-        <button> <RssFeedIcon /> </button>
-        <button> <PersonAddAlt1Icon /> </button>
+        <button><SearchIcon className="icons" /></button>
+        <button> <RssFeedIcon  className="icons" /> </button>
+        <button> <PersonAddAlt1Icon className="icons" /> </button>
       </div>
     </div>
   );

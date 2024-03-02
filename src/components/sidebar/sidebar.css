@@ -1,0 +1,26 @@
+.backColor {
+  background-color: #080d29 !important;
+  /* color: #080d29 !important; */
+}
+
+.fullColor {
+  background-color: #242a4a;
+}
+
+.text-color {
+  color: white;
+}
+
+.hovering:hover {
+  background-color: #383e5a;
+}
+
+.hovering:hover .sideIcon {
+  background-color: #4a5069;
+}
+
+.list ul li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
